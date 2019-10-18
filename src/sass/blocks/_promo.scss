@@ -53,3 +53,41 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+    .promo {
+        &__header {
+            font-size: 36px;
+            line-height: 36px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .promo {
+        padding-bottom: 50px;
+        background: url(../img/main.jpg) left 37% bottom/cover no-repeat;
+        &__wrapper {
+            margin-top: 50px;
+            align-items: center;
+        }
+        &__header {
+            font-size: 28px;
+            line-height: 32px;
+        }
+        &__subheader {
+            font-size: 16px;
+            line-height: 18px;
+        }
+        &__icons {
+            margin-top: 30px;
+            width: 300px;
+            display: flex;
+            justify-content: space-between;
+        }
+        &__icon {
+            width: 87px;
+            font-size: 11px;
+        }
+    }
+}

@@ -2,6 +2,7 @@
     padding-bottom: 71px;
     &__item {
         display: flex;
+        justify-content: center;
         margin-top: 100px;
         &:nth-child(2){
             margin-top: 70px;
@@ -30,5 +31,41 @@
         font-size: 16px;
         font-weight: 300;
         margin-top: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .feed {
+        &__text {
+            padding: 0;
+        }
+        &__item, &__item:nth-child(2) {
+            margin-top: 55px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .feed {
+        padding-bottom: 20px;
+        &__text {
+            padding: 0;
+            margin: 15px;
+        }
+        &__item, &__item:nth-child(2) {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        &__img {
+            width: 120px;
+            height: 120px;
+        }
+        &__descr {
+            font-size: 15px;
+        }
+        &-form {
+            width: auto;
+        }
     }
 }
