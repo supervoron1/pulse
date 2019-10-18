@@ -46,30 +46,29 @@
 @media (max-width: 575px) {
   .header {
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     &__logo {
-      width: 250px;
+      width: 120px;
     }
     &__official {
-      font-size: 16px;
-      padding-top: 20px;
+      font-size: 18px;
+      padding-top: 25px;
+      text-align: left;
+      order: 3;
     }
     &__official span {
       font-size: 22px;
     }
     &__contacts {
-      padding-top: 20px;
       align-items: center;
       order: 2;
       .button {
-        width: 300px;
-        height: 50px;
-        font-size: 16px;
+        width: 130px;
+        height: 25px;
       }
     }
     &__phone {
-      font-size: 22px;
-      padding-bottom: 10px;
+      font-size: 11px;
     }
   }
 }
