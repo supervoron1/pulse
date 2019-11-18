@@ -1,7 +1,7 @@
 # Pulsometers landing page
 
 ### Check this out at:
-[pulse.vorontsov.biz](https://pulse.vorontsov.biz/).
+[pulse.vorontsov.biz](http://pulse.vorontsov.biz/).
 
 ![Screenshot](screenshot.png)
 
